@@ -37,10 +37,7 @@ end
 
 # Define your play method below
 def play_method(board)
-turn = 0
-while turn < 9
-  puts "X"
-else
-  puts "O"
-  turn += 1
+i = 0
+while i < 9
+  i += 1
 end
