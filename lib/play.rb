@@ -39,6 +39,8 @@ end
 def play_method
 turn = 0
 while turn < 9
-  puts "X || O"
+  puts "X"
+else
+  puts "O"
   turn += 1
 end
