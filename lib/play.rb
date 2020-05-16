@@ -36,3 +36,9 @@ def turn(board)
 end
 
 # Define your play method below
+def play_method
+turn = 0
+while turn < 9
+  puts "X || O"
+  turn += 1
+end
